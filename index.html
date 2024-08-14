@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Fan Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e8449;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #27ae60;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #1e8449;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos a la Fan Page de Minecraft</h1>
+</header>
+
+<nav>
+    <a href="https://nosper55.github.io/Guia.githun.io/">Guías</a>
+    <a href="https://nosper55.github.io/Mods.github.io/">Mods</a>
+</nav>
+
+<section>
+    <h2>Sobre Minecraft</h2>
+    <p>Minecraft es un juego de construcción y aventuras donde puedes explorar mundos infinitos y construir desde una simple casa hasta un grandioso castillo.</p>
+
+    <form action="/enviar_formulario" method="post">
+        <h3>Suscríbete a nuestro boletín</h3>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="favorito">¿Cuál es tu mob favorito en Minecraft?</label>
+        <input type="text" id="favorito" name="favorito">
+
+        <input type="submit" value="Suscribirse">
+    </form>
+</section>
+</body>
+</html>
